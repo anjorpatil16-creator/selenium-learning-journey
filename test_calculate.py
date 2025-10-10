@@ -1,3 +1,21 @@
+#Author: Anjor Patil
+#Date: 05-10-2025
+#Time: 22.15
+#Purpose: Automate login on demo website
+
+
+"""
+Automates addition calculation on a demo calculator website using Selenium.
+
+- Opens the calculator webpage.
+- Inputs two numbers into the form.
+- Clicks the 'Find Addition' button to calculate the sum.
+- Waits before closing the browser.
+
+Requires Selenium and ChromeDriver.
+"""
+
+
 from selenium.webdriver.chrome.service import Service
 from selenium import webdriver
 from selenium.webdriver.common.by import By

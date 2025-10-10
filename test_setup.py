@@ -1,3 +1,22 @@
+"""
+Author: Anjor Patil
+Date: 04-10-2025
+Time: 17:00
+Environment: VS Code and Git Bash
+Goal: Automate Google Search and navigate DeepseekAI website using Selenium
+
+Description:
+This script opens a Chrome browser, navigates to Google, then visits the DeepseekAI website,
+clicks on the chat start button, waits for the page to load, and finally closes the browser.
+
+Prerequisites:
+- Selenium installed (pip install selenium)
+- Compatible ChromeDriver downloaded and path correctly set
+
+"""
+
+
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By

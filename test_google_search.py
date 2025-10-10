@@ -1,5 +1,25 @@
-#Created and owned by Anjor Patil on 5-10-2025 at 20.00 using vs code and git bash
-#Goal: Automate Google Search
+# Author: Anjor Patil
+# Date: 05-10-2025
+# Time: 20:00
+# Environment: VS Code and Git Bash
+# Goal: Automate Google Search
+
+
+
+"""
+This script automates a Google search using Python.
+
+It opens a web browser, navigates to Google's homepage,
+enters a specified search query, and retrieves or displays
+the search results automatically.
+
+Modules used:
+- selenium: for browser automation
+- time: for handling delays
+
+"""
+
+
 
 #Import required modules and libraries
 from selenium import webdriver

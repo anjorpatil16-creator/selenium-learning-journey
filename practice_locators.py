@@ -1,5 +1,14 @@
-#Created and owned by Anjor Patil on 05-10-2025 at 21.41
-#Goal: Automate login on demo website
+#Author: Anjor Patil
+#Date: 06-10-2025
+#Time: 11.20
+#Purpose: Automate login on demo website using and learn to find elements on any page
+
+"""
+Automates login page element detection on https://www.saucedemo.com
+using Selenium. Demonstrates locating elements by ID, NAME,
+CLASS_NAME, CSS_SELECTOR, and XPATH. Requires Selenium and ChromeDriver.
+"""
+
 
 #Import required modules and libraries
 from selenium import webdriver

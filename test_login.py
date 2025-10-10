@@ -1,5 +1,19 @@
-#Created and owned by Anjor Patil on 05-10-2025 at 21.41
-#Goal: Automate login on demo website
+# Author: Anjor Patil
+# Date: 05-10-2025
+# Time: 21:41
+# Purpose: Automate login on demo website (https://www.saucedemo.com) using Selenium
+
+"""
+Automates the login process on the SauceDemo demo website.
+
+- Opens the login page
+- Enters username and password
+- Clicks the login button
+- Verifies if login is successful by checking URL redirection
+- Prints status messages throughout the process
+"""
+
+
 
 #Import required modules and libraries
 from selenium import webdriver
