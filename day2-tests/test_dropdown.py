@@ -13,7 +13,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import time
 
-#Open browser in incogniti mode(To avoid google manager's popup)
+#Open browser in incognito mode(To avoid google manager's popup)
 chrome_option = Options()
 chrome_option.add_argument("--incognito")
 
