@@ -1,270 +1,109 @@
-# E-commerce Test Automation Suite
+# Selenium Test Automation Learning
 
-## 🚀 Project Overview
+## 🎯 Overview
+Personal learning project focused on building practical test automation skills using Selenium WebDriver with Python.
 
-A comprehensive test automation framework for e-commerce web applications, built using Selenium WebDriver with Python. This project demonstrates practical skills in automated testing, including test design, execution, and maintenance.
-
-**Current Status:** 🔨 Active Development | Core test scripts completed, framework implementation in progress
-
----
-
-## 📋 Project Objectives
-
-- Automate end-to-end testing workflows for e-commerce platforms
-- Implement industry-standard design patterns for maintainable test code
-- Develop reusable test components and utilities
-- Generate comprehensive test execution reports
-- Demonstrate professional test automation practices
+**Current Status:** 🔨 Week 1 - Learning Fundamentals
 
 ---
 
-## ✅ Completed Features
+## ✅ What I've Built (Days 1-2)
 
-### Test Coverage
-- **User Authentication:** Login validation with valid/invalid credentials
-- **Shopping Cart:** Add/remove items, cart quantity verification
-- **Checkout Flow:** Complete purchase workflow from cart to order confirmation
-- **Product Interactions:** Search, filtering, product detail validation
-- **Dropdown Handling:** Sorting and selection automation
+### Automated Test Scripts
+- **Login automation** - Valid/invalid credentials
+- **Shopping cart** - Add/remove products, cart verification
+- **Checkout workflow** - Complete purchase flow
+- **Dropdown handling** - Sorting and selections
+- **Form interactions** - Input fields, buttons, navigation
 
-### Technical Implementation
-- Element identification using multiple locator strategies (ID, XPath, CSS Selectors, Class Names)
-- Explicit and implicit wait mechanisms for stable test execution
-- Chrome browser configuration with customized options (incognito mode, notification handling)
-- Error handling and exception management
-- Git version control with structured commit history
-
----
-
-## 🔄 In Progress
-
-### Framework Development
-- **PyTest Integration:** Migrating test scripts to PyTest framework for better organization
-  - Test fixtures for setup/teardown
-  - Parameterized testing capabilities
-  - HTML report generation
-  
-- **Page Object Model (POM):** Refactoring code to separate page logic from test logic
-  - Creating page classes for LoginPage, ProductPage, CartPage, CheckoutPage
-  - Implementing reusable page methods
-  - Improving code maintainability and scalability
-
-- **Test Data Management:** Externalizing test data for data-driven testing
-
-- **Enhanced Reporting:** Implementing detailed test execution reports with screenshots
+### Technical Skills Applied
+- Selenium WebDriver setup and configuration
+- Element locators (ID, XPath, CSS Selectors, Class Names)
+- Explicit and implicit waits for synchronization
+- Chrome browser options (incognito mode, notifications)
+- Error handling and debugging
+- Git version control
 
 ---
 
-## 🛠️ Technologies & Tools
+## 🛠️ Technologies
 
-| Category | Technologies |
-|----------|-------------|
-| **Language** | Python 3.x |
-| **Automation** | Selenium WebDriver |
-| **Test Framework** | PyTest (in progress) |
-| **Browser** | Chrome/ChromeDriver |
-| **Version Control** | Git, GitHub |
-| **Design Pattern** | Page Object Model (implementing) |
+**Language:** Python 3.x  
+**Automation Tool:** Selenium WebDriver  
+**Browser:** Chrome  
+**Version Control:** Git/GitHub  
 
 ---
 
-## 📁 Project Structure
-
+## 📁 Current Structure
 ```
-e-commerce-test-automation/
-├── day1-tests/              # Initial test scripts
+selenium-learning-journey/
+├── day1-tests/          # Setup and basic automation
 │   ├── test_setup.py
-│   ├── test_google_search.py
 │   ├── test_login.py
 │   └── practice_locators.py
-│
-├── day2-tests/              # Advanced test scenarios
-│   ├── test_implicit_wait.py
-│   ├── test_explicit_wait.py
+├── day2-tests/          # Advanced scenarios
 │   ├── test_add_to_cart.py
 │   ├── test_dropdown.py
 │   └── test_complete_checkout.py
-│
-├── tests/                   # PyTest-organized tests (in development)
-├── pages/                   # Page Object Model classes (in development)
-├── utils/                   # Helper functions and utilities
-├── test_data/              # Test data files
-├── reports/                # Test execution reports
-├── screenshots/            # Test failure screenshots
-├── requirements.txt        # Python dependencies
-├── learning-log.md         # Development progress tracking
-└── README.md              # Project documentation
+├── learning-log.md      # Daily progress tracking
+└── README.md
 ```
 
 ---
 
-## ⚙️ Installation & Setup
+## 🚀 Setup & Running
 
-### Prerequisites
-- Python 3.8 or higher
-- Google Chrome browser
-- ChromeDriver (compatible with your Chrome version)
+**Prerequisites:**
+- Python 3.x
+- Chrome browser
+- ChromeDriver
 
-### Installation Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/selenium-learning-journey.git
-   cd selenium-learning-journey
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install selenium
-   pip install pytest
-   pip install pytest-html
-   ```
-
-3. **Configure ChromeDriver**
-   - Download ChromeDriver from [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/)
-   - Extract and place in a known location (e.g., `C:/chromedriver/`)
-   - Update the path in test files if needed
-
----
-
-## 🚀 Running Tests
-
-### Current Test Execution
-
-**Run individual test files:**
+**Install Selenium:**
 ```bash
-# Basic tests
-python day1-tests/test_login.py
+pip install selenium
+```
 
-# Advanced scenarios
+**Run a test:**
+```bash
 python day2-tests/test_add_to_cart.py
-python day2-tests/test_complete_checkout.py
-```
-
-### PyTest Execution (Coming Soon)
-
-```bash
-# Run all tests
-pytest tests/
-
-# Run with HTML report
-pytest tests/ --html=reports/test_report.html
-
-# Run specific test file
-pytest tests/test_checkout.py
-
-# Run with verbose output
-pytest tests/ -v
 ```
 
 ---
 
-## 🎯 Test Scenarios Covered
+## 📚 Test Scenarios
 
-### 1. User Authentication
-- Valid login credentials
-- Invalid username/password handling
-- Login form validation
+### Login Flow
+- User authentication with credentials
+- Error handling for invalid inputs
 
-### 2. Shopping Cart Management
-- Adding single product to cart
-- Adding multiple products
+### Shopping Cart
+- Adding products to cart
 - Cart count verification
 - Viewing cart contents
 
-### 3. Product Browsing
-- Dropdown sorting (price, name)
-- Product selection
-- Navigation between pages
-
-### 4. Checkout Process
-- Cart to checkout flow
-- Form filling (shipping information)
-- Order review
-- Order confirmation verification
+### Checkout Process
+- Customer information form
+- Order review and confirmation
 
 ---
 
-## 📚 Key Learnings & Skills Demonstrated
+## 🎓 Learning Journey
 
-### Selenium WebDriver Expertise
-- Multiple element locator strategies
-- Synchronization techniques (waits)
-- Browser options configuration
-- Handling dynamic web elements
+This project demonstrates my progression in test automation:
+- Day 1: Setup, basic element interaction
+- Day 2: Waits, complex workflows, error handling
+- Next: PyTest framework, Page Object Model
 
-### Test Design Principles
-- Separation of concerns
-- Reusable test components
-- Clear test structure
-- Descriptive naming conventions
 
-### Problem-Solving
-- Debugging failing tests
-- Handling browser-specific popups
-- Managing element visibility issues
-- Error handling and recovery
+## 🔮 Next Steps
+- Integrate PyTest testing framework
+- Implement Page Object Model pattern
+- Add test reporting
+- Expand test coverage
+
+
 
 ---
 
-## 🔮 Roadmap & Next Steps
-
-### Short-term (Next 1-2 Weeks)
-- [ ] Complete PyTest migration for all test scripts
-- [ ] Implement Page Object Model for all pages
-- [ ] Add pytest fixtures for browser setup/teardown
-- [ ] Generate comprehensive HTML test reports
-- [ ] Implement screenshot capture on test failures
-
-### Medium-term
-- [ ] Add data-driven testing with external data sources
-- [ ] Implement parallel test execution
-- [ ] Add API testing integration
-- [ ] Create CI/CD pipeline with GitHub Actions
-- [ ] Expand test coverage to additional workflows
-
-### Long-term
-- [ ] Multi-browser support (Firefox, Edge)
-- [ ] Performance testing integration
-- [ ] Database validation tests
-- [ ] Comprehensive test documentation
-
----
-
-## 📖 Documentation
-
-- **[Learning Log](learning-log.md):** Daily progress and lessons learned
-- **Test Case Documentation:** Coming soon
-- **Architecture Guide:** Coming soon
-
----
-
-## 🤝 About This Project
-
-This project is part of my journey to develop professional test automation skills. It represents hands-on learning with industry-standard tools and practices. The project is continuously evolving as I learn new concepts and implement best practices.
-
-### Current Focus
-- Strengthening Selenium WebDriver fundamentals
-- Learning PyTest framework thoroughly
-- Implementing Page Object Model pattern
-- Building maintainable and scalable test architecture
-
----
-
-## 📧 Contact
-
-**Anjor Patil**
-- Email: anjorpatil16@gmail.com
-- LinkedIn: www.linkedin.com/in/anjor-patil-29207a213
-- Location: Kolhapur, Maharashtra, India
-
----
-
-## 📝 License
-
-This is a personal learning project created for educational and portfolio purposes.
-
----
-
-**Last Updated:** October 2025  
-**Status:** Active Development - Building practical test automation skills through hands-on implementation
+**Last Updated:** October 2025 | Active Learning Project
