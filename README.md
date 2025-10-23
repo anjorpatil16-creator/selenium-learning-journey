@@ -1,13 +1,12 @@
 # Selenium Test Automation Learning
 
-## 🎯 Overview
+##  Overview
 Personal learning project focused on building practical test automation skills using Selenium WebDriver with Python.
 
-**Current Status:** 🔨 Week 1 - Learning Fundamentals
 
 ---
 
-## ✅ What I've Built (Days 1-2)
+## What I've Built
 
 ### Automated Test Scripts
 - **Login automation** - Valid/invalid credentials
@@ -26,7 +25,7 @@ Personal learning project focused on building practical test automation skills u
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 **Language:** Python 3.x  
 **Automation Tool:** Selenium WebDriver  
@@ -35,7 +34,7 @@ Personal learning project focused on building practical test automation skills u
 
 ---
 
-## 📁 Current Structure
+## Current Structure
 ```
 selenium-learning-journey/
 ├── day1-tests/          # Setup and basic automation
@@ -52,7 +51,7 @@ selenium-learning-journey/
 
 ---
 
-## 🚀 Setup & Running
+## Setup & Running
 
 **Prerequisites:**
 - Python 3.x
@@ -71,7 +70,7 @@ python day2-tests/test_add_to_cart.py
 
 ---
 
-## 📚 Test Scenarios
+## Test Scenarios
 
 ### Login Flow
 - User authentication with credentials
@@ -88,7 +87,7 @@ python day2-tests/test_add_to_cart.py
 
 ---
 
-## 🎓 Learning Journey
+## Learning Journey
 
 This project demonstrates my progression in test automation:
 - Day 1: Setup, basic element interaction
@@ -96,7 +95,7 @@ This project demonstrates my progression in test automation:
 - Next: PyTest framework, Page Object Model
 
 
-## 🔮 Next Steps
+## Next Steps
 - Integrate PyTest testing framework
 - Implement Page Object Model pattern
 - Add test reporting
