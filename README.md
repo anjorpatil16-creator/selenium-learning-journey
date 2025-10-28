@@ -10,7 +10,7 @@ Personal learning project focused on building practical test automation skills u
 
 ### Automated Test Scripts
 - **Login automation** - Valid/invalid credentials
-- **Shopping cart** - Add/remove products, cart verification
+- **Shopping cart** - Add products, cart verification
 - **Checkout workflow** - Complete purchase flow
 - **Dropdown handling** - Sorting and selections
 - **Form interactions** - Input fields, buttons, navigation
