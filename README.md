@@ -27,7 +27,7 @@ Personal learning project focused on building practical test automation skills u
 
 ## Technologies
 
-**Language:** Python 3.x  
+**Language:** Python 3.12.4  
 **Automation Tool:** Selenium WebDriver  
 **Browser:** Chrome  
 **Version Control:** Git/GitHub  
@@ -54,7 +54,7 @@ selenium-learning-journey/
 ## Setup & Running
 
 **Prerequisites:**
-- Python 3.x
+- Python 3.12.4
 - Chrome browser
 - ChromeDriver
 
@@ -85,21 +85,6 @@ python day2-tests/test_add_to_cart.py
 - Customer information form
 - Order review and confirmation
 
----
-
-## Learning Journey
-
-This project demonstrates my progression in test automation:
-- Day 1: Setup, basic element interaction
-- Day 2: Waits, complex workflows, error handling
-- Next: PyTest framework, Page Object Model
-
-
-## Next Steps
-- Integrate PyTest testing framework
-- Implement Page Object Model pattern
-- Add test reporting
-- Expand test coverage
 
 
 
